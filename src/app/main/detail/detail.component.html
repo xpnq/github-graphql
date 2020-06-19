@@ -1,0 +1,13 @@
+<div class="container detail">
+    <div class="row" *ngFor="let node of collaborators; index as i">
+        <div class="detail-element">
+            <div class="detail-element-image">
+                <img src="{{node.node.avatarUrl}}">
+            </div>
+            <div class="detail-element-name">
+                {{node.node.login}}
+            </div>
+
+        </div>
+    </div>
+</div>

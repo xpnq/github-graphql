@@ -1,0 +1,10 @@
+<div class="container main">
+    <div class="row">
+      <div class="col-sm-6">
+          <app-master [repositories]=repositories (showCollaborators)=changeCollaborators($event)></app-master>
+      </div>
+      <div class="col-sm-6">
+          <app-detail [collaborators]=collaborators ></app-detail>
+      </div>
+    </div>
+  </div>

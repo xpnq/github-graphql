@@ -1,0 +1,15 @@
+<div class="container master">
+    <div class="row" *ngFor="let rep of repositories; index as i">
+        <div class="master-element">
+            <div class="master-element-name">
+                {{rep.name}}
+            </div>
+            <div class="master-element-url">
+                <a href="{{rep.url}}">{{rep.url}}</a>"
+            </div>
+            <div class="master-element-show-contributors">
+                <button (click)=clicked(i)>Show Collaborators</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.detail-element{
+    min-height: 30px;
+    padding: 10px;  
+    border: 1px solid ghostwhite;
+
+    &-name{
+    }
+
+    &-image img{
+        width: 30px;
+        height: 30px;
+    }
+
+    &-show-contributors{
+        padding: 5px;
+        cursor: pointer;
+    }
+}
